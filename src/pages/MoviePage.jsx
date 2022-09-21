@@ -86,11 +86,11 @@ function MoviePage() {
     if(favourites) {
       if(!favourites.includes(id)) {
         localStorage.setItem("favourites", JSON.stringify([...favourites, id]));
-        setInFavourites(true);
       }
     } else {
       localStorage.setItem("favourites", JSON.stringify([id]));
     }
+    setInFavourites(true);
   }
 
   const removeFromFavourites = () => {
