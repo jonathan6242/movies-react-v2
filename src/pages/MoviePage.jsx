@@ -262,7 +262,7 @@ function MoviePage() {
         recommended?.length > 0 && (
           <section className="bg-darker">
             <div className="relative container max-w-7xl mx-auto px-6 py-12 md:py-20">
-              <div className="h-2 w-24 bg-accent mb-3 hidden md:block"></div>
+              <div className="h-1 w-24 bg-accent mb-3 hidden md:block"></div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-10">
                 Recommended Movies
               </h2>
@@ -288,7 +288,7 @@ function MoviePage() {
         credits?.cast?.length > 0 && (
           <section className="bg-dark">
             <div className="relative container max-w-7xl mx-auto px-6 py-12 md:py-20">
-              <div className="h-2 w-24 bg-accent mb-3 hidden md:block"></div>
+              <div className="h-1 w-24 bg-accent mb-3 hidden md:block"></div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-10">
                 Main Cast
               </h2>
