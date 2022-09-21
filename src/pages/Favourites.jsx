@@ -35,8 +35,8 @@ function Favourites() {
             .map(id => getMovie(id))
         );
         setMovies(data)
+        setTotalPages(Math.ceil(favourites.length / moviesPerPage))
       }
-      setTotalPages(Math.ceil(favourites.length / moviesPerPage))
       setTimeout(() => {
         setLoading(false);
       }, 500)
