@@ -1,6 +1,6 @@
 # BestMovies
 
-![bestmovies](https://www.jonathanfwong.com/assets/movies2.PNG "BestMovies")
+![BestMovies](https://www.jonathanfwong.com/assets/movies2.PNG "BestMovies")
 
 ## About
 BestMovies is a movie search application which uses the TMDB API.
