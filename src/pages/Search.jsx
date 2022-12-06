@@ -47,7 +47,7 @@ function Search() {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    if(searchText === '') {
+    if(searchText.trim() === '') {
       return;
     }
     setLoading(true);
